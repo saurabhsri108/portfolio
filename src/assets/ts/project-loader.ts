@@ -1,4 +1,5 @@
 import projects from '../../data/projects';
+import {linkGenerator} from './helpers';
 
 const projectContainer: HTMLDivElement | null = document.querySelector(
     '#projects .container .content',
@@ -48,17 +49,11 @@ function populateProjects(container: HTMLDivElement) {
     const btnActions: HTMLDivElement = document.createElement('div');
     btnActions.classList.add('btn-actions');
 
-    const liveLink: HTMLAnchorElement = document.createElement('a');
-    liveLink.classList.add('btn');
-    liveLink.setAttribute('href', project.liveLink);
-    liveLink.setAttribute('target', '_blank');
-    liveLink.innerHTML = 'Live Demo';
+    const liveLink: HTMLAnchorElement = linkGenerator(project.liveLink,
+        'Live Demo');
 
-    const githubLink: HTMLAnchorElement = document.createElement('a');
-    githubLink.classList.add('btn');
-    githubLink.setAttribute('href', project.githubLink);
-    githubLink.setAttribute('target', '_blank');
-    githubLink.innerHTML = 'GitHub Repo';
+    const githubLink: HTMLAnchorElement = linkGenerator(project.githubLink,
+        'GitHub Repo');
 
     btnActions.append(liveLink, githubLink);
     section.append(title, actions, tags, description, btnActions);

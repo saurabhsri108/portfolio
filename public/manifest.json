@@ -1,14 +1,8 @@
 {
-  "app.css": "autoapp.c14bc2a3c4c02bdd66c3.bundle.css",
-  "app.js": "autoapp.871abc54ec9309f82f95.bundle.js",
-  "assets/images/logo.svg": "autoassets/images/23b6865d11fcdee53f3c.svg",
+  "app.css": "autoapp.3ae2405a9d32903a54f2.bundle.css",
+  "app.js": "autoapp.5de8da5f38d87718856b.bundle.js",
   "index.html": "autoindex.html",
-  "assets/images/m-linkedin.svg": "autoassets/images/1d510a79c20dd849da57.svg",
-  "assets/images/m-twitter.svg": "autoassets/images/9cb021101a7594c3fdcf.svg",
-  "assets/images/m-youtube.svg": "autoassets/images/f33d666c4ff263c1e912.svg",
-  "assets/images/mdi_arrow-up-circle.svg": "autoassets/images/94d610cd92ef093260b8.svg",
-  "assets/images/m-gmail.svg": "autoassets/images/aa1962a49ff7ee9c2ec6.svg",
   "assets/images/clock.svg": "autoassets/images/3334171b0e8e6c9904c5.svg",
-  "app.bundle.css.map": "autoapp.c14bc2a3c4c02bdd66c3.bundle.css.map",
-  "app.bundle.js.map": "autoapp.871abc54ec9309f82f95.bundle.js.map"
+  "app.bundle.css.map": "autoapp.3ae2405a9d32903a54f2.bundle.css.map",
+  "app.bundle.js.map": "autoapp.5de8da5f38d87718856b.bundle.js.map"
 }

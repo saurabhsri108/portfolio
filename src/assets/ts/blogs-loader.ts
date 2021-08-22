@@ -1,5 +1,6 @@
 import blogs from '../../data/blogs';
 import clocksvg from '../images/clock.svg';
+import {linkGenerator} from './helpers';
 
 const blogsContainer: HTMLDivElement | null = document.querySelector(
     '#blogs .container .content');
@@ -55,11 +56,10 @@ function populateBlogs(container: HTMLDivElement) {
 
     const btnActions: HTMLDivElement = document.createElement('div');
     btnActions.classList.add('btn-actions');
-    const blogLink: HTMLAnchorElement = document.createElement('a');
-    blogLink.classList.add('btn', 'blog-link');
-    blogLink.setAttribute('href', `https://ibcoder.hashnode.dev/${blog.slug}`);
-    blogLink.setAttribute('target', '_blank');
-    blogLink.innerHTML = 'Read More';
+    const blogLink: HTMLAnchorElement = linkGenerator(
+        `https://ibcoder.hashnode.dev/${blog.slug}`, 'Read Full Blog',
+        ['blog-link']);
+
     btnActions.append(blogLink);
 
     section.append(image, title, info, description, btnActions);

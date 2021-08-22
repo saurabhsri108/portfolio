@@ -1,23 +1,4 @@
-/**
- * It generates iframes on the go
- * @param {string} title
- * @param {string} src
- * @return {HTMLIFrameElement} iframe
- */
-const iframeGenerator = (title: string, src: string) => {
-  const iframe: HTMLIFrameElement = document.createElement('iframe');
-  iframe.setAttribute('width', '100%');
-  iframe.setAttribute('src', src);
-  iframe.setAttribute('title', title);
-  // iframe.setAttribute('frameborder', '0');
-  iframe.setAttribute(
-      'allow',
-      'accelerometer; autoplay; ' +
-      'clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-  );
-  iframe.setAttribute('allowfullscreen', 'true');
-  return iframe;
-};
+import {iframeGenerator} from '../assets/ts/helpers';
 
 interface IProjects {
   id: number,
