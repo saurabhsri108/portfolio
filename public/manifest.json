@@ -1,6 +1,6 @@
 {
-  "app.css": "autoapp.a4285cfa2e4406c7b0a1.bundle.css",
-  "app.js": "autoapp.9bbc9665c9a98c7dc235.bundle.js",
+  "app.css": "autoapp.3201aaecc80c247f5ee7.bundle.css",
+  "app.js": "autoapp.0ddb843d6105cd7b56b4.bundle.js",
   "assets/images/logo.svg": "autoassets/images/23b6865d11fcdee53f3c.svg",
   "index.html": "autoindex.html",
   "assets/images/m-linkedin.svg": "autoassets/images/1d510a79c20dd849da57.svg",
@@ -9,6 +9,7 @@
   "assets/images/mdi_arrow-up-circle.svg": "autoassets/images/94d610cd92ef093260b8.svg",
   "assets/images/m-gmail.svg": "autoassets/images/aa1962a49ff7ee9c2ec6.svg",
   "assets/images/clock.svg": "autoassets/images/3334171b0e8e6c9904c5.svg",
-  "app.bundle.css.map": "autoapp.a4285cfa2e4406c7b0a1.bundle.css.map",
-  "app.bundle.js.map": "autoapp.9bbc9665c9a98c7dc235.bundle.js.map"
+  "app.bundle.css.map": "autoapp.3201aaecc80c247f5ee7.bundle.css.map",
+  "143.hot-update.js.map": "auto143.7452eee290999836f3c1.hot-update.js.map",
+  "app.bundle.js.map": "autoapp.0ddb843d6105cd7b56b4.bundle.js.map"
 }
