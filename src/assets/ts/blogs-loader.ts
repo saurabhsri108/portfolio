@@ -29,7 +29,7 @@ function populateBlogs(container: HTMLDivElement) {
     image.setAttribute('src', blog.coverImage);
     image.setAttribute('alt', blog.title);
     image.setAttribute('width', '360');
-    image.setAttribute('height', '180');
+    image.setAttribute('height', '150');
 
     const title: HTMLHeadingElement = document.createElement('h3');
     title.classList.add('title');

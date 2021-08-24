@@ -17,8 +17,8 @@ export const fadeIn = (el: HTMLElement, delay: number) => {
  */
 export const iframeGenerator = (title: string, src: string) => {
   const iframe: HTMLIFrameElement = document.createElement('iframe');
-  iframe.setAttribute('width', '360');
-  iframe.setAttribute('height', '180');
+  iframe.setAttribute('width', '100%');
+  iframe.setAttribute('height', '150px');
   iframe.setAttribute('src', src);
   iframe.setAttribute('title', title);
   iframe.setAttribute('loading', 'lazy');
@@ -66,8 +66,8 @@ export const generateThumbnail = (
   thumbnailImage.loading = 'lazy';
   thumbnailImage.src = thumbnailUrl;
   thumbnailImage.alt = title;
-  thumbnailImage.width = 360;
-  thumbnailImage.height = 180;
+  thumbnailImage.setAttribute('width', '100%');
+  thumbnailImage.setAttribute('height', '150px');
   thumbnailImage.dataset.link = link;
 
   return thumbnailImage;

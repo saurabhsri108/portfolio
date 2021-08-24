@@ -254,6 +254,7 @@
 
 img.thumbnail-image {
     cursor: pointer;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -264,11 +265,11 @@ img.thumbnail-image {
     .cta-picture {
         flex: 1;
         width: 24rem;
-        object-fit: cover;
     }
 
     .cta-picture img {
         height: auto;
+        object-fit: cover;
     }
 
     .cta-content {
