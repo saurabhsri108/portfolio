@@ -27,13 +27,17 @@ function populateTutorials(container: HTMLDivElement) {
     title.classList.add('title');
     title.innerHTML = tutorial.title;
 
+    const actions: HTMLDivElement = document.createElement('div');
+    actions.classList.add('actions');
+    actions.append(tutorial.thumbnail);
+
     const btnActions: HTMLDivElement = document.createElement('div');
     btnActions.classList.add('btn-actions');
     const liveLink: HTMLAnchorElement = linkGenerator(tutorial.link,
         'Watch on YouTube');
 
     btnActions.append(liveLink);
-    section.append(title, tutorial.iframe, btnActions);
+    section.append(title, actions, btnActions);
     container.append(section);
   }
 }

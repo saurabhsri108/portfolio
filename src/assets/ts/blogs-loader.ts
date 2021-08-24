@@ -28,7 +28,8 @@ function populateBlogs(container: HTMLDivElement) {
     image.setAttribute('loading', 'lazy');
     image.setAttribute('src', blog.coverImage);
     image.setAttribute('alt', blog.title);
-    image.setAttribute('width', '100%');
+    image.setAttribute('width', '360');
+    image.setAttribute('height', '180');
 
     const title: HTMLHeadingElement = document.createElement('h3');
     title.classList.add('title');

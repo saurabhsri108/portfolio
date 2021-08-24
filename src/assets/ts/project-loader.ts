@@ -30,7 +30,7 @@ function populateProjects(container: HTMLDivElement) {
 
     const actions: HTMLDivElement = document.createElement('div');
     actions.classList.add('actions');
-    actions.append(project.iframe);
+    actions.append(project.thumbnail);
 
     const tags: HTMLDivElement = document.createElement('div');
     tags.classList.add('tags');

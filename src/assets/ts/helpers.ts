@@ -17,7 +17,8 @@ export const fadeIn = (el: HTMLElement, delay: number) => {
  */
 export const iframeGenerator = (title: string, src: string) => {
   const iframe: HTMLIFrameElement = document.createElement('iframe');
-  iframe.setAttribute('width', '100%');
+  iframe.setAttribute('width', '360');
+  iframe.setAttribute('height', '180');
   iframe.setAttribute('src', src);
   iframe.setAttribute('title', title);
   iframe.setAttribute('loading', 'lazy');
@@ -47,4 +48,27 @@ export const linkGenerator = (
   generatedLink.setAttribute('rel', 'noreferrer');
   generatedLink.innerHTML = text;
   return generatedLink;
+};
+
+/**
+ * It returns the generated thumbnail for the youtube url
+ * @param {string} link
+ * @param {string} title
+ * @return {HTMLImageElement} thumbnail
+ */
+export const generateThumbnail = (
+    link: string, title: string): HTMLImageElement => {
+  const videoId: string = link.split('embed/')[1];
+  const thumbnailUrl: string = `https://img.youtube.com/vi/${videoId}/0.jpg`;
+
+  const thumbnailImage = document.createElement('img');
+  thumbnailImage.classList.add('thumbnail-image');
+  thumbnailImage.loading = 'lazy';
+  thumbnailImage.src = thumbnailUrl;
+  thumbnailImage.alt = title;
+  thumbnailImage.width = 360;
+  thumbnailImage.height = 180;
+  thumbnailImage.dataset.link = link;
+
+  return thumbnailImage;
 };

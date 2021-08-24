@@ -1,8 +1,9 @@
 {
-  "app.css": "autoapp.3ae2405a9d32903a54f2.bundle.css",
-  "app.js": "autoapp.5de8da5f38d87718856b.bundle.js",
+  "app.css": "autoapp.10c0b0c8d79f87af09cf.bundle.css",
+  "app.js": "autoapp.688c62b0d6aede8cd312.bundle.js",
   "index.html": "autoindex.html",
   "assets/images/clock.svg": "autoassets/images/3334171b0e8e6c9904c5.svg",
-  "app.bundle.css.map": "autoapp.3ae2405a9d32903a54f2.bundle.css.map",
-  "app.bundle.js.map": "autoapp.5de8da5f38d87718856b.bundle.js.map"
+  "app.bundle.css.map": "autoapp.10c0b0c8d79f87af09cf.bundle.css.map",
+  "143.hot-update.js.map": "auto143.12df7e75402485f2350b.hot-update.js.map",
+  "app.bundle.js.map": "autoapp.688c62b0d6aede8cd312.bundle.js.map"
 }
