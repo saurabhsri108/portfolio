@@ -20,7 +20,7 @@ export const iframeGenerator = (title: string, src: string) => {
   iframe.setAttribute('width', '100%');
   iframe.setAttribute('src', src);
   iframe.setAttribute('title', title);
-  // iframe.setAttribute('frameborder', '0');
+  iframe.setAttribute('loading', 'lazy');
   iframe.setAttribute(
       'allow',
       'accelerometer; autoplay; ' +
