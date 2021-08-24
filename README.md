@@ -1,9 +1,8 @@
 
-# Portfolio Website Project
+# [Portfolio Website Project](https://www.vasudeveloper.com)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-This is my current Portfolio that is build from scratch using typescript, html, and css.
-
+This is my current Portfolio that is build from scratch using typescript, html, and css. Click on the heading above to browse the page.
 
 
 ## Optimizations
@@ -23,18 +22,12 @@ Here's something I did to improve the loading time of the page:
     </noscript>
     ```
  - The usage of media="print" makes sure that page doesn't get blocked during critical rendering process and once the load completes, it replaces the media to 'all' for the effect to happen.
- 
-![Before Optimization LightHouse Portfolio](https://user-images.githubusercontent.com/56103269/130655708-7812e8f4-6732-4358-a375-d8f47294daa7.png)
-![After Optimization LightHouse Portfolio - version 4](https://user-images.githubusercontent.com/56103269/130655800-0863e05f-9d37-4827-a6d0-6754289c8f7a.png)
-![After Optimization Desktop LightHouse Portfolio - version 4](https://user-images.githubusercontent.com/56103269/130655818-b4793d84-9b43-4e76-822f-a885a0bfaef3.png)
-
-
-  
-## Screenshots
-
-![Portfolio-Desktop-Screenshot](https://user-images.githubusercontent.com/56103269/130655559-53560cba-c2db-42be-b1e6-e6f22e931f41.png)
-![Portfolio-Mobile-Screenshot](https://user-images.githubusercontent.com/56103269/130655583-1b2e3862-99e7-4fab-a5c0-c81dee047c0e.png)
-
+ - Before any optimization
+   ![Before Optimization LightHouse Portfolio](https://user-images.githubusercontent.com/56103269/130655708-7812e8f4-6732-4358-a375-d8f47294daa7.png)
+ - After optimization on mobile
+   ![After Optimization LightHouse Portfolio - version 4](https://user-images.githubusercontent.com/56103269/130655800-0863e05f-9d37-4827-a6d0-6754289c8f7a.png)
+ - After optimization on desktop
+  ![After Optimization Desktop LightHouse Portfolio - version 4](https://user-images.githubusercontent.com/56103269/130655818-b4793d84-9b43-4e76-822f-a885a0bfaef3.png)
 
   
 ## Authors
