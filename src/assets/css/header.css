@@ -5,7 +5,7 @@ header.navigation {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--primary-color-dark);
+  background: var(--gradient);
   /* border-bottom: 1px solid var(--primary-color-light-separator); */
   z-index: 10;
 }
@@ -180,7 +180,7 @@ nav .menu-list .menu-link.active {
   }
 
   nav .menus.menus-screens .menu-list .menu-link::after {
-    content: "";
+    content: '';
     position: absolute;
     background: var(--primary-color-light);
     height: 3px;

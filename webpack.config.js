@@ -89,9 +89,11 @@ module.exports = {
   ],
   devtool: 'source-map',
   devServer: {
-    contentBase: './public',
+    static: [
+      path.resolve(__dirname, 'public'),
+    ], // previous contentBase
     port: 3000,
-    hot: true,
+    hot: true, // default in 4.4.0
   },
   experiments: {
     topLevelAwait: true,
