@@ -43,6 +43,6 @@
     "webpack-manifest-plugin": "^4.0.2"
   },
   "engines": {
-    "node": "16.13.*"
+    "node": "16.x"
   }
 }
